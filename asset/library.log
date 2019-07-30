@@ -1,0 +1,289 @@
+commit 4290f1c2d3613e7d180a8b5e0ce524adb0ddeb72
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Fri Jul 26 17:59:13 2019 +0800
+
+    [FIX]页签打开
+
+commit b9c198d355ee40e2ef1938fdeda868073a3d9912
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Thu Jul 25 18:04:27 2019 +0800
+
+    [FIX]页签打开
+
+commit f4ab3525c08edeb91dcb555a3f4b43583304fd93
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Tue Jul 23 18:05:07 2019 +0800
+
+    [FIX]页签打开
+
+commit 4d3585f088f2a557b691b590b25a18085b2a1a35
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Fri Jul 19 17:55:15 2019 +0800
+
+    [ADD]系统设置，待完成
+
+commit 56fdae418a88c3e729c3fe15e883833ffdb51c9e
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Thu Jul 18 22:40:36 2019 +0800
+
+    [FIX]系统配置界面，待测试
+
+commit 3b01c96cf01baed0d45d909b630f917b43409582
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Thu Jul 18 22:03:33 2019 +0800
+
+    '[DEBUG]less-loader'
+
+commit 30a03c24a2d68ae2c93d92b241d059158d9459ea
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Thu Jul 18 18:05:09 2019 +0800
+
+    [ADD]系统设置，待完成
+
+commit 7759056ddabbd0fe6fc8e402ebc08bc96f0c4d72
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Wed Jul 17 18:03:53 2019 +0800
+
+    [ADD]系统设置，待完成
+
+commit a9ad310970bb662f88ee505ecf25527d8f978a69
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Tue Jul 16 14:14:59 2019 +0800
+
+    [ADD]newTable
+
+commit 9feae03ed465d7b1484714006177293285c5c51a
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Mon Jul 15 19:07:35 2019 +0800
+
+    [FIX]Linux
+
+commit 974e2a98a6804fe289beddcbc7cbd1c2b0f01a93
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Sun Jul 14 22:30:20 2019 +0800
+
+    [FIX]table完成调整[ADD]多语言模块添加
+
+commit e2b40153a5d67364a538d7d71ca5df11dec97db2
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Fri Jul 12 16:11:33 2019 +0800
+
+    [ADD]加入多语言[FIX]table调整，未完成
+
+commit 48d9fbf70592fbcdaef9d1d3e9a0b928cf4cf008
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Thu Jul 11 17:51:31 2019 +0800
+
+    [FIX]重写table
+
+commit 8990b8de31783aa932082ee5eca342d431cb9045
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Wed Jul 10 17:48:20 2019 +0800
+
+    [FIX]table调整未完成
+
+commit 7f4e9233b2c7e39a411118febf692afedd8a2a92
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Wed Jul 10 15:16:33 2019 +0800
+
+    [FIX]table调整[FIX]冗余样式删除
+
+commit 6aedcae5b8ea00a74a997f02841a2c61f9007994
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Tue Jul 9 18:12:18 2019 +0800
+
+    [FIX]table样式调整[FIX]table参数控制
+
+commit c0cc9ed7ab20461ce0762b42e9f42f77daba3592
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Tue Jul 9 14:56:01 2019 +0800
+
+    [FIX]测试用例，配置信息调整
+
+commit 4c23873024be872d64b42b865c1df9bfcad4f383
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Tue Jul 9 10:35:13 2019 +0800
+
+    [ignore]update gitignore
+
+commit 61a41fd2f66f88b53ce369c2c42b1af90c156133
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Mon Jul 8 23:29:06 2019 +0800
+
+    [FIX]publish
+
+commit 15d0b60d18891f9d49b8d6ead069fc3baa4e21b2
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Mon Jul 8 22:21:21 2019 +0800
+
+    [FIX]demo文档修改
+
+commit 0c6c486fc83ac014c5f0389dc13b9caeb305bdc8
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Mon Jul 8 22:20:13 2019 +0800
+
+    [FIX]样式调整
+
+commit 65eb1ea5c2ed62ca0cfcbd865093af2c30baac38
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Mon Jul 8 18:05:20 2019 +0800
+
+    [FIX]修改antd组件引入方式
+
+commit 8e46833f23767b53ee043d080d8fcd80ecd741e3
+Merge: 514637d 6a93459
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Fri Jul 5 01:13:05 2019 +0800
+
+    Merge branch 'dev' of http://10.4.69.31:9090/ecmp-list/basic/library-web/react into dev
+
+commit 514637db4395f1f6dda97c37192ad55f39918df2
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Fri Jul 5 01:11:06 2019 +0800
+
+    [FIX]样式调整
+
+commit 882a9e75ed57af6177e5fb07f58c7a081ecaf120
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Thu Jul 4 21:37:18 2019 +0800
+
+    '[ADD]添加npm仓库信息'
+
+commit dfdad3710cd5f7aaa93181bb96ba10addd6b6ad0
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Thu Jul 4 20:20:49 2019 +0800
+
+    [TEST]publish
+
+commit 38d3b673a7c12b02def7b8eb0e5f30a643c163a3
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Thu Jul 4 19:51:52 2019 +0800
+
+    [FIX]动态表单在ts提示错误
+
+commit 554939131091baa74e1d5b9733a4dcbd58fc1962
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Thu Jul 4 19:09:42 2019 +0800
+
+    [FIX]修改说明文档题头
+
+commit 3730caa8a176d8feac09405b80ca9e038f1d0e33
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Thu Jul 4 16:26:03 2019 +0800
+
+    [FIX]httpRequest demo
+
+commit ac45fedb0556560a9f8500a4e94ee35ef0e027a1
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Thu Jul 4 16:10:03 2019 +0800
+
+    [ADD]feedback板块
+
+commit 7420e7bb7ae1976a74eda5f0899e9400d7f75f37
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Thu Jul 4 15:05:49 2019 +0800
+
+    [ADD]feedback板块
+
+commit 1750a8865a0e0c735dbf07ec6b92051e171002b4
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Wed Jul 3 17:34:21 2019 +0800
+
+    [ADD]组件文件下载按钮
+
+commit e786d1c43f6874a2236d29fdd3612c55e424a7b0
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Wed Jul 3 10:47:10 2019 +0800
+
+    [ADD]添加全局样式
+
+commit 640978f834686190040824404b9d947bf9bda138
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Tue Jul 2 23:10:23 2019 +0800
+
+    [ADD]standardTable待完善
+
+commit c6512f6eb671dcd1ff06e2d159aec44f26152241
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Tue Jul 2 19:30:56 2019 +0800
+
+    [ADD]添加组件StandardTable
+    [ADD]添加组件SelectData
+
+commit b0408fa19199f935540ecedb3280fe4723b5f460
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Sun Jun 30 00:00:30 2019 +0800
+
+    [ADD]添加authority-data-tree
+
+commit 9657cb7035932ace1d263fd8b092d55b809b3c39
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Thu Jun 27 18:24:37 2019 +0800
+
+    [ADD]添加组件amountInput
+
+commit d3ebed08d370f4f79bba2d39db9f7fa7b16e760c
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Wed Jun 26 21:50:19 2019 +0800
+
+    [FIX]这些问题也太神奇了吧
+
+commit 2a6c4a03a5e9033df89126b9c4413aaf52191c51
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Tue Jun 25 15:29:17 2019 +0800
+
+    '[ignore]修改ignore文件，支持js'
+
+commit dbeeb049fee4bd12e99092443a998807590b6409
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Fri Jun 21 16:40:09 2019 +0800
+
+    [CHANGE]修改配置
+
+commit 99ea7a0186db8461c1ef5fd0b86e4cc7ee947073
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Fri Jun 21 13:37:30 2019 +0800
+
+    '[CHANGE]取消ssr'
+
+commit f7efd24170549a0ae97492801d4b74dc7a194888
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Thu Jun 20 18:09:44 2019 +0800
+
+    [CHANGE]修改配置
+
+commit fe4a3abc62fffbf7140eeba23a7d0a8dcff3fe71
+Author: dengfeng <953841731@qq.com>
+Date:   Thu Jun 20 09:21:05 2019 +0800
+
+    [FIX]demo样式
+
+commit b56e2a9949752023be3c285a84f416e4145449a5
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Wed Jun 19 23:12:41 2019 +0800
+
+    [FIX]取消打包服务端渲染[CHANGE]更新所有依赖包版本
+
+commit 1208af43685b9f2dde436b96fdc3dbb205bf4e12
+Author: dengfeng <953841731@qq.com>
+Date:   Wed Jun 19 17:45:21 2019 +0800
+
+    '[ADD]Demo'
+
+commit 34b46c6e81140b02377598a3e6526c6d1dd48f57
+Author: dengfeng <953841731@qq.com>
+Date:   Wed Jun 19 09:59:26 2019 +0800
+
+    [CHANGE]logo调整[CHANGE]网页title改变
+
+commit bebce3f1768dc54074f78654d2e9c4066ac650aa
+Author: dengfeng <953841731@qq.com>
+Date:   Tue Jun 18 15:47:54 2019 +0800
+
+    [ADD]添加富文本编辑框demo[ADD]添加动态表单demo
+
+commit 4550c45060ccc8c52164c801dc1f263458d56928
+Author: dengfeng <953841731@qq.com>
+Date:   Tue Jun 18 10:02:55 2019 +0800
+
+    [ADD]基于ant-design编写组件库与知识库
