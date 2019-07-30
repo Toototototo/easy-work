@@ -1,0 +1,142 @@
+commit 288a0aba7ad39d70e909b39903143d6f8863965b
+Merge: b7f5af3 2ecd049
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Tue Jul 30 15:13:28 2019 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+commit b7f5af3eef977cadb81bf835ad58d27b37d95114
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Tue Jul 30 15:12:03 2019 +0800
+
+    [FIX]合同、付款单选择弹出层
+
+commit 2ecd0490df3632bc86b38be3e33e49d9490f53fc
+Author: heyx <yuxuan.he@changhong.com>
+Date:   Tue Jul 30 14:52:40 2019 +0800
+
+    [TEST]资金计息表单提交失效测试2
+
+commit 12bbbf8f48fabece33fcf5765010a0e0e853acc9
+Author: heyx <yuxuan.he@changhong.com>
+Date:   Tue Jul 30 14:31:50 2019 +0800
+
+    [TEST]资金计息表单提交失效测试
+
+commit 0d87d0b68b7b8b88cdf9467287be60e8b19acafa
+Author: heyx <yuxuan.he@changhong.com>
+Date:   Tue Jul 30 11:22:22 2019 +0800
+
+    [FIX]增加变更页面的回车事件
+
+commit e40ffad71effb4ce5361582d3400d43b4cc1f60e
+Author: heyx <yuxuan.he@changhong.com>
+Date:   Tue Jul 30 10:49:26 2019 +0800
+
+    [FIX]增加回车事件
+
+commit 54259549e74532e2f18cd37fe570a385a616791c
+Author: heyx <yuxuan.he@changhong.com>
+Date:   Tue Jul 30 10:37:12 2019 +0800
+
+    [FIX]增加上传xls格式附件
+
+commit 7f8570d5671a904cdf72c761c893f96aec134e33
+Merge: 15eb6d1 15f208b
+Author: heyx <yuxuan.he@changhong.com>
+Date:   Tue Jul 30 10:25:38 2019 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 15eb6d1e02cdc73e9cb625541072082adf1ab522
+Author: heyx <yuxuan.he@changhong.com>
+Date:   Tue Jul 30 10:25:20 2019 +0800
+
+    [FIX]审批历史展示问题
+
+commit 15f208b05d8107b3dedaa822e2d6f8dcfb2d5b92
+Merge: 1bb9eaf 74ce2ab
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Mon Jul 29 17:10:27 2019 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 1bb9eaff65eaeb3d8b9aade5a55350f9a1eeb1e7
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Mon Jul 29 17:09:55 2019 +0800
+
+    [ADD]重做资金分配
+
+commit 74ce2abfabf500aafc028174557171a3c3fc5728
+Author: heyx <yuxuan.he@changhong.com>
+Date:   Mon Jul 29 16:57:00 2019 +0800
+
+    [FIX]应王老师需求，修改了一堆东西
+
+commit 8e71223bbf01f2f90d13eb4ffa1312ff23ba0fcc
+Author: heyx <yuxuan.he@changhong.com>
+Date:   Sat Jul 27 12:35:11 2019 +0800
+
+    [FIX]修改表单label颜色
+
+commit 871bddaed43d95c46beae08ef63536cd865b949f
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Sat Jul 27 11:36:31 2019 +0800
+
+    [FIX]模板附件管理
+
+commit 3d1ba33b3bd755ee579a2942604a49b956a25ba9
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Fri Jul 26 16:53:53 2019 +0800
+
+    [FIX]定价单创建合同
+
+commit a1ec9f5822c5a378ce8eaf5e2cc5bcf03f129944
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Fri Jul 26 16:34:00 2019 +0800
+
+    [FIX]模板文件上传控制
+
+commit 3d4ec1a353a95969b9bad72ad45b9895adf22669
+Merge: cdd9b93 477ab00
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Thu Jul 25 16:58:36 2019 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+commit cdd9b934cb0cb74b4a67d16b80de8f0434ed8b3f
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Thu Jul 25 16:56:25 2019 +0800
+
+    [ADD]收款单重做
+
+commit 477ab009d54aca91561783d89966bb5a58016e06
+Author: heyx <yuxuan.he@changhong.com>
+Date:   Thu Jul 25 16:27:56 2019 +0800
+
+    [FIX]非制式合同不上传文档附件
+
+commit d9a1ed4e65f1e82d722a01bbe7f345f714b09b3b
+Author: heyx <yuxuan.he@changhong.com>
+Date:   Thu Jul 25 15:16:30 2019 +0800
+
+    [FIX]修改下单容差逻辑，[ADD]销售合同表单增加下单容差字段
+
+commit 9d89e147dc93a0372ba2d5b67c8e669916d25ab4
+Author: heyx <yuxuan.he@changhong.com>
+Date:   Thu Jul 25 11:30:43 2019 +0800
+
+    [FIX]修改合同变更查询逻辑；配置124环境edm预览地址
+
+commit fba77e2d36b4d58e47e04b62657de504a1c42486
+Merge: c5f6fee 3c16c4e
+Author: heyx <yuxuan.he@changhong.com>
+Date:   Wed Jul 24 18:57:01 2019 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+commit c5f6fee591cf47f3f0a04ef038ed8599d8a79652
+Author: heyx <yuxuan.he@changhong.com>
+Date:   Wed Jul 24 18:50:34 2019 +0800
+
+    [FIX]增加下单容差比例字段；取消技术协议的必填验证
