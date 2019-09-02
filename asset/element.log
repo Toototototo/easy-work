@@ -1,86 +1,120 @@
-commit f125b1d3d0a0748eb08b72d91c1a74ec9b147ffc
+commit 2f3b10da59d29ab6f652e32fdfe2d4cbff3eeb1d
 Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Tue Jul 23 17:53:20 2019 +0800
-
-    [FIX]Table调试结束
-
-commit 6964e0ebcbe64ae707c2017ce123771af8c6ccce
-Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Tue Jul 23 15:46:42 2019 +0800
-
-    [FIX]测试Table性能
-
-commit 6b1305126550c77c587cf8950f40562c2454a7f4
-Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Tue Jul 23 09:43:05 2019 +0800
+Date:   Fri Aug 23 18:22:01 2019 +0800
 
     [FIX]
 
-commit 2fb81d4890d4201e39d8670732019e5fc69c5f76
+commit 3ea4494d2c7dcd6dde02166af677d178174e0c40
 Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Mon Jul 22 18:10:30 2019 +0800
+Date:   Fri Aug 23 18:16:45 2019 +0800
 
-    [FIX]table改写 未完成
+    [IGNORE]Fix Ignore
 
-commit 22d20f1129e9fdd044ff57f746b83949c8b63111
-Merge: cad2d4c c5e8fe1
+commit 09d40b0b94e973db06f1b8ea8f9ab15dd778cabc
 Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Sun Jul 21 20:32:03 2019 +0800
+Date:   Fri Aug 23 18:15:41 2019 +0800
 
-    Merge remote-tracking branch 'origin/master'
-    
-    # Conflicts:
-    #       src/table/ColGroup.jsx
-    #       src/table/TableBody.jsx
-    #       src/table/TableCell.jsx
-    #       src/table/TableHeader.jsx
-    #       src/table/TableRow.jsx
-    #       src/table/normalizeColumns.jsx
+    [IGNORE]
 
-commit cad2d4c9e3e911399a165c7ac897da76fba125ca
+commit 324d755d20e4103635600bd2b98e1f329fdfd18f
 Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Sun Jul 21 20:31:40 2019 +0800
+Date:   Fri Aug 23 18:13:51 2019 +0800
 
-    [FIX]表格调整，未完成（选择，性能优化）
+    [UPDATE]
 
-commit c5e8fe116c9a5db109eb52fe090e5f22bd32b97f
+commit 543947cfa4ae92d7b47e28c7546fb961d499b8cd
 Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Fri Jul 19 17:52:27 2019 +0800
+Date:   Fri Aug 23 17:53:48 2019 +0800
 
-    [FIX]table改写 未完成
+    '[FIX]修改编译输出路径'
 
-commit c0bb931997b081426e53bda6cd7298528537301c
+commit 6b98484eecf602aa136f6e25dd04d3598af1f857
 Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Fri Jul 19 14:11:09 2019 +0800
+Date:   Thu Aug 22 17:46:02 2019 +0800
 
-    [FIX]table Render Cell
+    [UPDATE]更新版本号
 
-commit 11c23b6ceb06d828473dcdd5596963f583571b34
+commit 3b1242f2f683c386d4424368581a50ef7a394830
 Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Tue Jul 16 14:47:46 2019 +0800
+Date:   Wed Aug 21 12:58:34 2019 +0800
 
-    [FIX]typescripts
+    '[FIX]事件冒泡阻止'
 
-commit e4143e4d6daa8ded70e65a0b5946f7451b7d8af9
+commit 4b6d948a088decd8cd7c66468de97c32e1c5bc8b
 Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Tue Jul 16 10:05:06 2019 +0800
+Date:   Mon Aug 19 21:57:35 2019 +0800
 
-    [FIX]typescripts
+    [FIX]BUG
 
-commit 0630da47f430476aaca3992aea24a913e5fcd9e7
+commit 2fea065b320a5c8a6cd93331ea917dc906d46011
+Merge: a67fb53 75ac5db
 Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Sun Jul 14 22:33:08 2019 +0800
+Date:   Mon Aug 19 21:11:17 2019 +0800
 
-    [ADD]table调整完成
+    Merge branch 'master' of https://github.com/Toototototo/copy-from-element-react
 
-commit 88e173f87952330bf04d9a30bb3021bea6e23412
+commit 75ac5db087ecfcdccd3f457ddaf091ba21a6c441
+Author: dengfeng.tu@changhong.com <dengfeng.tu@changhong.com>
+Date:   Mon Aug 19 19:54:39 2019 +0800
+
+    [FIX]table onSelect
+
+commit a67fb53b0a3ed22d34f3c10f8feff10e2fb30df9
 Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Thu Jul 11 18:27:04 2019 +0800
+Date:   Fri Aug 16 20:18:49 2019 +0800
 
-    [CHANGE]Table调整
+    [FIX]引用位置
 
-commit 9e7001491e20f545f28624c7f208472ae1853bdd
+commit ab60ca7abc22539a76a91dfcdcf70d5fe932c2dc
 Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Thu Jul 11 14:58:22 2019 +0800
+Date:   Fri Aug 16 20:10:57 2019 +0800
 
-    [INIT]Copy From Element-React
+    [FIX]typings
+
+commit a9199e271449911cc8220838693a95cf43fe2179
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Fri Aug 16 20:06:56 2019 +0800
+
+    [ADD]onRow接受所有表格行事件
+
+commit f25239a607429aaf69825d8b0909cf0fc68b7857
+Author: dengfeng.tu@changhong.com <dengfeng.tu@changhong.com>
+Date:   Fri Aug 16 18:01:20 2019 +0800
+
+    [ADD]Table添加onRowClick时间
+
+commit 48f0b3e673b9e84d34db2ef05df84dcd52eb7aec
+Author: dengfeng.tu@changhong.com <dengfeng.tu@changhong.com>
+Date:   Fri Aug 16 15:14:55 2019 +0800
+
+    [UPDATE]version
+
+commit df26da9a95a55e0ef2e0c0ddb4c5fa7667ef7c3a
+Author: dengfeng.tu@changhong.com <dengfeng.tu@changhong.com>
+Date:   Fri Aug 16 15:14:22 2019 +0800
+
+    [CHANGE]no react-hot-loader
+
+commit 64a3871ad520145b1379cccee0493359e67e87cb
+Author: dengfeng.tu@changhong.com <dengfeng.tu@changhong.com>
+Date:   Fri Aug 16 11:27:16 2019 +0800
+
+    [FIX]引用来源ES6
+
+commit 61a363b7374b5d4bd012f747ace6a89be775f29f
+Author: dengfeng.tu@changhong.com <dengfeng.tu@changhong.com>
+Date:   Thu Aug 15 16:50:06 2019 +0800
+
+    [FIX]format Change
+
+commit b29b1bbc624cc81c3d3f532253819c9157f3ef41
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Thu Aug 15 15:48:37 2019 +0800
+
+    [DELETE]删除console
+
+commit 89cdada20c9d0b9ee390ba162f3154b23da24b26
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Tue Aug 13 17:15:14 2019 +0800
+
+    [FIX]Table key for dataIndex or Key

@@ -124,7 +124,7 @@ const headers = {
     'Accept-Language': 'zh-CN,zh;q=0.9',
     Connection: 'keep-alive',
     'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
-    Cookie: 'ASP.NET_SessionId=pah2a4g2eowlqwvhuqtyx22w',
+    Cookie: 'ASP.NET_SessionId=dfuphbd4wecqf3bt5gt54f2l',
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
 };
 const url = 'http://10.9.41.3/WeeklyManagement/CreateWeekly';

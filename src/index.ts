@@ -12,6 +12,18 @@ const moment = require('moment');
 //TODO:: 自动计算工作日
 //TODO:: 查看哪一天工作日没有日志
 //TODO:: 自动将节假日填写到工作日
+declare global {
+    interface String {
+        replaceBy(searchValue: string | RegExp, replaceValue: string): string;
+    }
+}
+
+String.prototype.replaceBy = function (searchValue: string | RegExp, replaceValue: string): string {
+    if (this.includes(replaceValue)) {
+        return this.replace(searchValue, '')
+    }
+    return this.replace(searchValue, replaceValue);
+}
 
 function run() {
     const content = getFileContent('./asset/git.log');
@@ -34,7 +46,7 @@ function run() {
         }
         if (line.startsWith('commit')) {
             beginTag = true;
-            goodLine[0] = `${ num }   ${ line.slice(6) }`;
+            goodLine[0] = `${num}   ${line.slice(6)}`;
             num += 1;
             pageId = tdClassId(pageId);
             continue;
@@ -52,10 +64,13 @@ function run() {
                 // 处理goodLine
                 new RegExp('/[FIX/]', 'g');
                 goodLine[4] = goodLine[4]
-                    .replace(/\[FIX\]/g, '修复')
-                    .replace(/\[ADD\]/g, '新增')
-                    .replace(/\[TEST\]/g, '测试')
-                    .replace(/\[CHANGE\]/g, '修改');
+                    .replaceBy(/\[FIX\]/g, '修复')
+                    .replaceBy(/\[ADD\]/g, '新增')
+                    .replaceBy(/\[TEST\]/g, '测试')
+                    .replaceBy(/\[CHANGE\]/g, '修改')
+                    .replaceBy(/\[UPDATE\]/g, '更新')
+                    .replaceBy(/\[DELETE\]/g, '删除')
+                    .replaceBy(/\[COMPLETE\]/g, '完成');
                 const date = moment(new Date(goodLine[3]));
                 if (!goodLine[4].includes('Merge')) {
                     if (!requests[date.format('YYYY-MM-DD')]) {

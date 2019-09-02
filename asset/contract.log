@@ -1,556 +1,270 @@
-commit 288a0aba7ad39d70e909b39903143d6f8863965b
-Merge: b7f5af3 2ecd049
+commit c68d9699bf20ccbd6b435c7a120a55ec1ea6f071
 Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Tue Jul 30 15:13:28 2019 +0800
+Date:   Mon Sep 2 10:45:38 2019 +0800
+
+    '[FIX]第三步点击下一步失败'
+
+commit d0ff31c41e1503b7c30a3f1a32a1c8a8b8a95e1f
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Fri Aug 30 16:17:24 2019 +0800
+
+    [ADD]查看合同历史权限控制
+
+commit ee1991809467e20efa5a1bb1b9aad64d5643dbd9
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Fri Aug 30 16:11:17 2019 +0800
+
+    [FIX]多语言销毁时保存formValue[FIX]step1中changeCode计算
+
+commit 3ff298b1f6a0801f74dc902fd0f7d424cbc83d64
+Merge: d153ad0 cf85739
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Thu Aug 29 17:39:02 2019 +0800
 
     Merge remote-tracking branch 'origin/master'
 
-commit b7f5af3eef977cadb81bf835ad58d27b37d95114
+commit d153ad0dba1e22ad2e6cd2c287d5393c8fcd44e3
 Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Tue Jul 30 15:12:03 2019 +0800
+Date:   Thu Aug 29 17:38:48 2019 +0800
 
-    [FIX]合同、付款单选择弹出层
+    [ADD]格式文本审批流
 
-commit 15f208b05d8107b3dedaa822e2d6f8dcfb2d5b92
-Merge: 1bb9eaf 74ce2ab
+commit 59f48f2d19459266e85582ff02aa674241dc347b
 Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Mon Jul 29 17:10:27 2019 +0800
+Date:   Thu Aug 29 15:03:14 2019 +0800
 
-    Merge remote-tracking branch 'origin/master'
+    [FIX]组织机构回显
 
-commit 1bb9eaff65eaeb3d8b9aade5a55350f9a1eeb1e7
+commit c5646fa4044a52ea42ec9a6658412683312deef0
 Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Mon Jul 29 17:09:55 2019 +0800
+Date:   Wed Aug 28 15:49:20 2019 +0800
 
-    [ADD]重做资金分配
+    [FIX]综合查询报表不能查出格式文本
 
-commit 871bddaed43d95c46beae08ef63536cd865b949f
+commit f3f32c81501a6861111fb3ee31c4536bb4464150
 Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Sat Jul 27 11:36:31 2019 +0800
+Date:   Wed Aug 28 13:56:14 2019 +0800
 
-    [FIX]模板附件管理
+    [FIX]合同编辑第二部多语言配置[FIX]合同编辑第一步changeCode判断失效[ADD]新增TextArea多语言支持
 
-commit 3d1ba33b3bd755ee579a2942604a49b956a25ba9
+commit 826a3f63bc625551cbff58c8ea3d0b6fb580accb
+Merge: 0df27eb 0053e1f
 Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Fri Jul 26 16:53:53 2019 +0800
-
-    [FIX]定价单创建合同
-
-commit a1ec9f5822c5a378ce8eaf5e2cc5bcf03f129944
-Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Fri Jul 26 16:34:00 2019 +0800
-
-    [FIX]模板文件上传控制
-
-commit 3d4ec1a353a95969b9bad72ad45b9895adf22669
-Merge: cdd9b93 477ab00
-Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Thu Jul 25 16:58:36 2019 +0800
-
-    Merge remote-tracking branch 'origin/master'
-
-commit cdd9b934cb0cb74b4a67d16b80de8f0434ed8b3f
-Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Thu Jul 25 16:56:25 2019 +0800
-
-    [ADD]收款单重做
-
-commit 3c16c4e0f51e86b5754aad9481ba11ddbacca09c
-Merge: 13c0be6 b6da953
-Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Wed Jul 24 18:22:28 2019 +0800
-
-    [ADD]资金计息重做
-
-commit 13c0be62301f810db47167085e6b20b22743c859
-Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Wed Jul 24 18:21:04 2019 +0800
-
-    [ADD]资金计息重做
-
-commit 7aea6321186472c06c753156892be0989efefc4b
-Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Tue Jul 23 16:32:57 2019 +0800
-
-    [FIX]模板附件
-
-commit 9809d2aebe7f888b840aa74360b0214395c64669
-Merge: c021838 43162bc
-Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Tue Jul 23 13:06:51 2019 +0800
-
-    Merge remote-tracking branch 'origin/master'
-
-commit c0218381ba9000e723e2b11d04834046bfd58fd3
-Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Tue Jul 23 12:59:29 2019 +0800
-
-    [FIX]也不知道哪儿来这么多问题
-
-commit 63300a55e900e8a5cbc075838c9763521ae6953c
-Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Tue Jul 23 11:09:51 2019 +0800
-
-    [FIX]普通合同关联技术协议
-
-commit bed77b62f8062c009fbaad502ea15e1114324463
-Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Mon Jul 22 16:26:19 2019 +0800
-
-    [FIX]审批页面增加合同总金额和来源单号的内容
-
-commit afe97ea48befbeead5cdea8e09328e34ed7d58e3
-Merge: 758ac66 ff068a4
-Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Mon Jul 22 15:49:15 2019 +0800
-
-    Merge remote-tracking branch 'origin/master'
-
-commit 758ac6695be9329e8b0bad2a9b87e5bf9319f269
-Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Mon Jul 22 15:47:40 2019 +0800
-
-    [FIX]审批页面增加合同总金额和来源单号的内容
-
-commit 25fb5de3b96b5fbfe7914e05203f638477b872bb
-Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Mon Jul 22 15:03:23 2019 +0800
-
-    [FIX]允许上传文本附件，并且在合同查看界面替代现在的附件展示[ADD]定价单创建合同，需要能够关联到技术协议[FIX]审批页面增加合同总金额和来源单号的内容
-
-commit a003d28f5e14a63baa126ffe9f41286c3ab5b80b
-Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Fri Jul 19 11:00:14 2019 +0800
-
-    [FIX]综合查询条件
-
-commit 2b29d89e8bde548af89bbb20af26f03bc0d424e0
-Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Wed Jul 17 18:48:16 2019 +0800
-
-    [FIX]模板管理附件上传
-
-commit acf209f0fb6394b9bf92f22ad66eade6889857ab
-Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Mon Jul 15 17:10:12 2019 +0800
-
-    [ADD]合同变更废弃
-
-commit 8572e11ba2a9f29ff2a708de7bc95f374525f96b
-Merge: 228fcd8 00174c2
-Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Mon Jul 15 14:48:42 2019 +0800
-
-    Merge remote-tracking branch 'origin/master'
-
-commit 228fcd86f09de1dea9755a97761c7e45b01f8a52
-Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Mon Jul 15 14:47:43 2019 +0800
-
-    [ADD]综合查询报表查询字段[ADD]合同变更废弃审批[ADD]定价单创建合同[ADD]格式文本查询字段
-
-commit 8fce81a5865015267208fd37f1b4a1a8e006c6b7
-Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Fri Jul 12 17:45:36 2019 +0800
-
-    [ADD]格式文本查询
-
-commit 5f4394351f4c2c9537b5c2f481ae23a0accd6f8d
-Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Fri Jul 12 11:27:19 2019 +0800
-
-    [FIX]元素配置默认请求方式
-
-commit 0688a3ae578773d49035a789cc89c7d74a989991
-Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Wed Jul 10 10:28:27 2019 +0800
-
-    [FIX]成本测算单和框架合同只有甲方乙方不能修改
-
-commit 7270a19450abaf5f8b4f143d22cd0ee668924b00
-Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Tue Jul 9 10:27:30 2019 +0800
-
-    [FIX]合同查询条件状态显示
-
-commit 25a3f67370f72687417f4e22ecb3d7feaecdb99a
-Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Mon Jul 8 17:11:19 2019 +0800
-
-    [FIX]合同补录正式非正式合同区别[FIX]合同创建页面调整
-
-commit 367d09262108b1e93763d8e70428429c29115865
-Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Mon Jul 8 10:43:09 2019 +0800
-
-    [FIX]合同查询状态调整[FIX]元素管理数据定义字段取值范围
-
-commit 5b6f96b0aeea2b0ed60f33a05707e574032837ae
-Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Fri Jul 5 18:02:25 2019 +0800
-
-    [FIX]合同详情页创建
-
-commit 1d02f7c349e01fd4a77c5af5a36f365f2e157c1c
-Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Thu Jul 4 18:14:10 2019 +0800
-
-    [FIX]穿梭框样式修改
-
-commit 4255991a6f35b73a7dfecfbd767b12a4491709a8
-Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Thu Jul 4 11:28:26 2019 +0800
-
-    [FIX]修复问题
-
-commit 56f26af9cd05760ce12d32ea5218b73d3ee73999
-Merge: 11faaaa 4b02ee2
-Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Wed Jul 3 18:50:58 2019 +0800
-
-    Merge remote-tracking branch 'origin/master'
-
-commit 11faaaa7511f5791374f2d729f79c9e735d39283
-Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Wed Jul 3 18:50:38 2019 +0800
-
-    [FIX]formal字段类型判断
-
-commit fb5cbfb0bce9b3e517b91d3f65ee5486da0770d6
-Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Wed Jul 3 15:07:31 2019 +0800
-
-    [FIX]合同查询条件
-
-commit a551c3a1831d7b3dedfaf23f5cfafb4e12d60b6c
-Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Wed Jul 3 14:25:07 2019 +0800
-
-    [FIX]补录合同参考创建合同类型字段修改
-
-commit ee8f0f88d5f0fef2ec11236406d8c60ba874f1b8
-Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Wed Jul 3 13:49:56 2019 +0800
-
-    [FIX]补录合同参考创建合同类型字段修改
-
-commit 4b4dc8266e160a518604740255b422c642209ceb
-Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Wed Jul 3 11:36:01 2019 +0800
-
-    [FIX]补录合同参考创建
-
-commit cfe799675d0a1627e551baf27d37e0db95072ae7
-Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Wed Jul 3 09:52:33 2019 +0800
-
-    [FIX]补录合同参考创建
-
-commit 8bfb54db436e0e6960193ffb06971e806bbba6f9
-Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Mon Jul 1 15:21:13 2019 +0800
-
-    [FIX]成本测算单关联框架合同
-
-commit b7f28656309715ca741f02f32888eff4c899e6c2
-Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Fri Jun 28 17:07:10 2019 +0800
-
-    [ADD]模板授权
-
-commit bb33c85b55a99f77024ef1d7a91205b9356c5072
-Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Fri Jun 28 13:20:40 2019 +0800
-
-    [ADD]模板授权公司
-
-commit 34faff3b5d20c5758bb5a4cdb8a5516bae405ec4
-Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Fri Jun 28 11:10:05 2019 +0800
-
-    [RESET]回滚global.js
-
-commit d59688f863d546973ab690f89ee3f32eb7b46689
-Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Thu Jun 27 18:02:10 2019 +0800
-
-    [ADD]成本测算单关联
-
-commit 6885621108dad1962307fdda3c54726dc3c38df3
-Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Thu Jun 27 16:55:17 2019 +0800
-
-    [ADD]成本测算单关联框架合同，待修改[ADD]查询框架合同限制合同状态
-
-commit 2c0e3c4c4cbf181b76f9cee991115f3ef8126119
-Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Tue Jun 25 10:42:12 2019 +0800
-
-    [FIX]编辑完成后点击提交后到履约[ADD]框架合同创建子合同乙方不可修改[FIX]合同履约的废弃、启用、终止、暂停删除时间
-
-commit 7f0950f8322f7536d80447075a99df005d28a741
-Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Mon Jun 24 10:07:43 2019 +0800
-
-    [ADD]合同查询按钮添加loading效果
-
-commit e7ac3279883e4118ff663c871404e73f0f51a5ff
-Author: dengfeng <dengfeng.tu@changhong.com>
-Date:   Thu Jun 20 17:14:55 2019 +0800
-
-    [ADD]创建框架确认函模板由所选合同限制[ADD]对接完成创建框架确认函
-
-commit 23f128a06ff1c9231532d8ee5106ff802c8d7c49
-Author: dengfeng <953841731@qq.com>
-Date:   Thu Jun 20 16:32:21 2019 +0800
-
-    [ADD]创建框架确认函模板由所选合同限制[ADD]对接完成创建框架确认函
-
-commit 569e8d8df079664c8fee8f1fa32f2a30e274850f
-Merge: 811015c d069cfd
-Author: dengfeng <953841731@qq.com>
-Date:   Wed Jun 19 17:38:34 2019 +0800
-
-    Merge remote-tracking branch 'origin/master'
-
-commit 811015cb7e198fb34e1e88d0d959f717a92f44a4
-Author: dengfeng <953841731@qq.com>
-Date:   Wed Jun 19 17:38:12 2019 +0800
-
-    [FIX]树形选择优化[ADD]框架合同创建确认函copyFrame
-
-commit 00310712705560cd2a43b0ea5e5bcdd1153b4d19
-Merge: 489ba30 c25138c
-Author: dengfeng <953841731@qq.com>
-Date:   Wed Jun 19 13:02:19 2019 +0800
-
-    Merge remote-tracking branch 'origin/master'
-
-commit 489ba304871dc18476a5b1fdea0db95598f7a3a9
-Author: dengfeng <953841731@qq.com>
-Date:   Wed Jun 19 13:01:47 2019 +0800
-
-    [ADD]合同执行情况状态字段[ADD]合同执行情况框架类型[ADD]查询字段token控制
-
-commit e54047961331f58b1eecb4bc2674eaaaded58a2d
-Merge: 821912f ebdc720
-Author: dengfeng <953841731@qq.com>
-Date:   Mon Jun 17 17:48:30 2019 +0800
-
-    Merge branch 'master' of http://rddgit.changhong.com/ZT/contract-web
-
-commit 821912fe8ac7ddc56a7d0b63f2dc5a1e7fafc960
-Author: dengfeng <953841731@qq.com>
-Date:   Mon Jun 17 17:46:39 2019 +0800
-
-    [ADD][ADD][]
-
-commit 7c00451edfee6dd9720deed0cc8fc175e7fe0019
-Author: dengfeng <953841731@qq.com>
-Date:   Fri Jun 14 10:04:11 2019 +0800
-
-    [FIX]打开业务清单导入权限
-
-commit e10d9519a8df09a0c22677c6bdf5e0b1ab070f28
-Merge: 23352e3 6cbe21e
-Author: dengfeng <953841731@qq.com>
-Date:   Fri Jun 14 10:00:52 2019 +0800
-
-    Merge remote-tracking branch 'origin/master'
-
-commit 23352e3cef0b1ee74d73c74dc024c19693d92dfa
-Author: dengfeng <953841731@qq.com>
-Date:   Fri Jun 14 10:00:14 2019 +0800
-
-    [FIX]更换业务清单查询接口
-
-commit 4922392e2bc722f4a0dfcf932c625e17f66aec7e
-Merge: 1ead881 f314389
-Author: dengfeng <953841731@qq.com>
-Date:   Thu Jun 13 18:57:31 2019 +0800
-
-    Merge remote-tracking branch 'origin/master'
-
-commit 1ead881a25f2a8b3548cb3edaae22e695e568615
-Author: dengfeng <953841731@qq.com>
-Date:   Thu Jun 13 18:56:59 2019 +0800
-
-    [ADD]合同执行情况状态字段[ADD]合同执行情况框架类型
-
-commit ee38ab2c580ccc1660ff1b0f23e02e94946d170c
-Author: dengfeng <953841731@qq.com>
-Date:   Thu Jun 13 16:35:35 2019 +0800
-
-    [FIX]修改业务清单查询接口
-
-commit 7186d42790d9f4b19187bd736f8ed101234a770d
-Merge: 4b2115a ed5e06c
-Author: dengfeng <953841731@qq.com>
-Date:   Wed Jun 12 16:41:44 2019 +0800
-
-    Merge remote-tracking branch 'origin/master'
-
-commit 4b2115a5789316c8e5e5781ae9618d4b1e1aa6b9
-Author: dengfeng <953841731@qq.com>
-Date:   Wed Jun 12 16:41:16 2019 +0800
-
-    [ADD]合同执行情况状态字段[ADD]合同执行情况框架类型
-
-commit 940165a0c12d2f86cf632ff9c1cccda981ac3de9
-Author: dengfeng <953841731@qq.com>
-Date:   Tue Jun 11 09:56:28 2019 +0800
-
-    [FIX]签署信息页数最大值限制
-
-commit 4c5485db1856b21033812bbbf59bde3dd8121e86
-Merge: 7685df2 000a54b
-Author: dengfeng <953841731@qq.com>
-Date:   Mon Jun 10 10:24:53 2019 +0800
-
-    Merge remote-tracking branch 'origin/master'
-
-commit 7685df262ee855bab1b4a63305d5437f6069a02d
-Author: dengfeng <953841731@qq.com>
-Date:   Mon Jun 10 10:23:38 2019 +0800
-
-    [FIX]合同变更退回查询文件类型
-
-commit 4713e6d21962647aca836412a128e68754b76210
-Author: dengfeng <953841731@qq.com>
-Date:   Thu Jun 6 15:32:23 2019 +0800
-
-    [FIX]合同变更字段起止日期
-
-commit aacd319b6270afe1c04547ef6862c32e5aab9c5a
-Merge: 25217e7 063ab5c
-Author: dengfeng <953841731@qq.com>
-Date:   Thu Jun 6 15:07:03 2019 +0800
-
-    Merge remote-tracking branch 'origin/master'
-
-commit 25217e76401f9e375037bc78100240a517bb8054
-Author: dengfeng <953841731@qq.com>
-Date:   Thu Jun 6 15:06:44 2019 +0800
-
-    [FIX]合同变更审批页面附件无法预览[FIX]合同履约界面排序字段清空
-
-commit 533378ea6d85059d0e250778ba96f06a046306ab
-Author: dengfeng <953841731@qq.com>
-Date:   Thu Jun 6 14:23:13 2019 +0800
-
-    [ADD]保留历史流程类型
-
-commit 15af9fc5601d8c9b65b9137bf22f31821f3e39df
-Author: dengfeng <953841731@qq.com>
-Date:   Thu Jun 6 10:56:10 2019 +0800
-
-    [FIX]合同变更查询bug修复[FIX]利率录入回显问题[FIX]利率保存成功提示
-
-commit f5c66b1601ad8ae8cddbf6b5583eec3660f4e527
-Author: dengfeng <953841731@qq.com>
-Date:   Wed Jun 5 16:05:08 2019 +0800
-
-    [FIX]合同执行查询界面状态管理
-
-commit 1bf9042ba4039abb311b6f8ffdd4ef5c0a9e0f98
-Author: dengfeng <953841731@qq.com>
-Date:   Wed Jun 5 16:00:06 2019 +0800
-
-    [FIX]合同变更
-
-commit 05dec3678d6b178ecf8055bc9f77cc2efec066fc
-Author: dengfeng <953841731@qq.com>
-Date:   Wed Jun 5 15:00:11 2019 +0800
-
-    [FIX]合同变更接口修改参数
-
-commit 309eff322a9e6bfe4ce625dbd9927a7043b9cf07
-Author: dengfeng <953841731@qq.com>
-Date:   Wed Jun 5 12:48:31 2019 +0800
-
-    [FIX]合同变更上传文件类型修改[ADD]文件上传成功状态判断
-
-commit 71d7586bfdd9266186c0d3adbe158ac59f15fd27
-Author: dengfeng <953841731@qq.com>
-Date:   Wed Jun 5 11:31:28 2019 +0800
-
-    [FIX]合同查询报错提示[FIX]合同变更签署报错提示
-
-commit e6e5317648a8e32ff738ad591ecd53a05e63d7c1
-Author: dengfeng <953841731@qq.com>
-Date:   Wed Jun 5 11:04:18 2019 +0800
-
-    [FIX]合同查询
-
-commit 2de264557dcbfe0bc00820a035f930192c471ff9
-Author: dengfeng <953841731@qq.com>
-Date:   Wed Jun 5 10:46:48 2019 +0800
-
-    [FIX]合同变更查询数据总数
-
-commit e6945835ed411f0146ecd62c1da787fb883ac0ce
-Author: dengfeng <953841731@qq.com>
-Date:   Wed Jun 5 10:26:18 2019 +0800
-
-    [FIX]合同状态对接
-
-commit f0927e5d5759ffce87f8baf6782e4a0382062b4e
-Merge: 576d51d 1085e27
-Author: dengfeng <953841731@qq.com>
-Date:   Tue Jun 4 18:08:27 2019 +0800
-
-    Merge remote-tracking branch 'origin/master'
-    
-    # Conflicts:
-    #       src/pages/ContractManager/Draft.js
-
-commit 576d51d3390e0a177b7fd7478f4d1230f7cc7eda
-Author: dengfeng <953841731@qq.com>
-Date:   Tue Jun 4 18:04:22 2019 +0800
-
-    [FIX]合同状态重新整理[ADD]合同列表查询条件
-
-commit fff4623672c4b8f74d317527263084b7d250bc1d
-Author: dengfeng <953841731@qq.com>
-Date:   Tue Jun 4 15:30:35 2019 +0800
-
-    [FIX]批量删除合同变更单
-
-commit a4cea378f1a82210115b06e455076a710e77d42a
-Author: dengfeng <953841731@qq.com>
-Date:   Tue Jun 4 11:24:52 2019 +0800
-
-    [FIX]变更协议提交状态判断
-
-commit 553c2ca34996bc7739fa16ee6797c1bc79fd06f8
-Merge: 8c0ec67 bf23312
-Author: dengfeng <953841731@qq.com>
-Date:   Tue Jun 4 10:22:47 2019 +0800
+Date:   Tue Aug 27 15:13:32 2019 +0800
 
     Merge branch 'master' into dev
 
-commit bf23312c6e971547781efa9d8c39259e66417f03
-Merge: 5098ec4 5fe2e5e
-Author: dengfeng <953841731@qq.com>
-Date:   Tue Jun 4 10:09:01 2019 +0800
+commit 0df27ebcfa5e7aaca8a3988e49188f0e45856f62
+Merge: 8774896 1cfd3cc
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Tue Aug 27 15:13:25 2019 +0800
+
+    Merge branch 'dev' of http://rddgit.changhong.com/ZT/contract-web into dev
+
+commit 0053e1fa4c1f6413f4bf936f3f0c5c7444fccea0
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Mon Aug 26 14:05:46 2019 +0800
+
+    [FIX]SelectTable错误数据兼容
+
+commit 87748966e42e81fd6b94370964aab523385375f6
+Merge: 1caf8b5 0283781
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Mon Aug 26 12:49:40 2019 +0800
+
+    Merge branch 'master' into dev
+
+commit 1caf8b5a1c3d3c2b45bec8144c95ab43201dca43
+Merge: b3f86dd 5e37f83
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Mon Aug 26 12:46:53 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev' into dev
+
+commit b3f86dd1dcc4f3169e4bf67494cfd537f66d1240
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Mon Aug 26 12:44:40 2019 +0800
+
+    [FIX]完善合同授权接口调用
+
+commit ddff1b408e064d00a11ab83eca0b840b2279ffe5
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Sat Aug 24 16:01:19 2019 +0800
+
+    [FIX]合同效力选择改变
+
+commit bd7a4d96c43838bbc97172a92ec80eda221f66b5
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Sat Aug 24 15:33:05 2019 +0800
+
+    [FIX]英文分号改为中文分号[TEST]测试利率保存
+
+commit 9efa703982d7aa8251d8a3cc805f6f61b14e0143
+Merge: 271e83e d85e2b1
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Sat Aug 24 15:02:19 2019 +0800
+
+    Merge branch 'master' into dev
+
+commit 271e83ea0ee2664dd31f108aa44b1a63e96292e3
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Sat Aug 24 14:44:33 2019 +0800
+
+    [ADD]合同授权查询接口
+
+commit 8dcfee292d15c43b75799361154735b27c513a0f
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Tue Aug 20 16:28:10 2019 +0800
+
+    [FIX]更换人员，组织查询接口
+
+commit 3639a0ba5f45f2da2d7bed212415fe12cf66af59
+Merge: 5b0995e aac4a41
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Tue Aug 20 16:15:22 2019 +0800
+
+    Merge branch 'master' of http://rddgit.changhong.com/ZT/contract-web into dev
+
+commit 5b0995ed9dca4d47e4cd2747bbdd66c6cc74e4a8
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Tue Aug 20 16:06:55 2019 +0800
+
+    [ADD]合同授权弹窗，待对接接口
+
+commit 7e974e35c1dbc9f08beaa7d37d7b6e971625c50b
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Fri Aug 16 16:44:00 2019 +0800
+
+    [FIX]合同效力改为单选
+
+commit c5c8daf3b0281a785486450af205807ff7dfb7ed
+Merge: 331acbb ec473f1
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Fri Aug 16 16:21:37 2019 +0800
 
     Merge branch 'master' of http://rddgit.changhong.com/ZT/contract-web
 
-commit 5098ec46e82c98f7cf1631756acdc415bbfdde93
-Author: dengfeng <953841731@qq.com>
-Date:   Tue Jun 4 10:07:39 2019 +0800
+commit 331acbbf7113532d95b31797937b3508700dbdcb
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Fri Aug 16 16:21:14 2019 +0800
 
-    [FIX]合同变更退回修改页面
+    [FIX]新增业务清单名称长度[FIX]定价单名称
 
-commit 4d0a1d8bcdbba7dd688949f15a5216738b120dac
-Merge: cef63e7 85f16ae
-Author: dengfeng <953841731@qq.com>
-Date:   Mon Jun 3 19:07:55 2019 +0800
+commit f294929273f914006065d85a758dff8131ee023e
+Merge: f2b50d5 ecd1ebf
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Thu Aug 15 15:03:52 2019 +0800
+
+    Merge branch 'master' of http://rddgit.changhong.com/ZT/contract-web
+
+commit f2b50d546ceedc5c875320f34aff4e3c122e3358
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Thu Aug 15 15:03:09 2019 +0800
+
+    [FIX]contractDetail Refs指向[FIX]多语言数值判断
+
+commit 0477d12d67ef00aa9ab247877fefc56f9585acde
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Thu Aug 15 11:13:02 2019 +0800
+
+    [FIX]多语言默认值处理
+
+commit e2e0d7b378f8a5614cd7da823129d55a807f22d7
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Thu Aug 15 10:38:27 2019 +0800
+
+    [FIX]模板多语言控制
+
+commit 1899cefe38627fe5b7ef7f21414a29a06f4d9f99
+Merge: 85d9359 d04cc80
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Thu Aug 15 10:10:18 2019 +0800
+
+    Merge branch 'dev'
+
+commit d04cc8020fc8a0fca5c219ae863085abb25e837c
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Wed Aug 14 09:42:52 2019 +0800
+
+    [FIX]业务清单配置多语言信息
+
+commit c45beaa02325a255b7a654e12dde0ef243ea4253
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Tue Aug 13 16:10:10 2019 +0800
+
+    [ADD]业务清单多语言支持[ADD]业务清单表头多语言配置[FIX]ESlint import/order
+
+commit cb9485f7f1b7eb1d2a059996d242d2d7308e02d3
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Mon Aug 12 18:05:51 2019 +0800
+
+    [ADD]元素、业务清单多语言支持
+
+commit ea0e72780cbd994292ad4305d11cea1de908e1ff
+Merge: 2eb55c0 9a81bf2
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Mon Aug 12 09:39:14 2019 +0800
+
+    Merge branch 'master' of http://rddgit.changhong.com/ZT/contract-web
+
+commit 2eb55c0ab9cfa33c0790aa70f890677124445851
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Fri Aug 9 17:37:53 2019 +0800
+
+    '[ADD]元素多语言支持'
+
+commit 3f61910ed32c385eb341b7b5eabf629c12eebbe5
+Merge: 939e38d cd217b4
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Thu Aug 8 17:56:18 2019 +0800
+
+    [ADD]模板多语言支持
+
+commit 939e38dec40753a548ec974aadd1bee6aaa8af5b
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Thu Aug 8 17:50:49 2019 +0800
+
+    [ADD]模板支持多语言
+
+commit 9e51cb65002906e62a3336b78baa17f9986c1816
+Merge: 315f2fb a73eed0
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Wed Aug 7 16:56:52 2019 +0800
 
     Merge remote-tracking branch 'origin/master'
 
-commit cef63e7de8363f8e8ec376855693e329560275a4
-Author: dengfeng <953841731@qq.com>
-Date:   Mon Jun 3 19:07:23 2019 +0800
+commit 315f2fba9d640fa04a1c812df7611aca60522ed4
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Wed Aug 7 16:56:28 2019 +0800
 
-    [ADD]资金计息导出excel
+    [FIX]收款单查询
+
+commit fb88ec63e3f519c5f5919ec50bd3fd3486500a08
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Tue Aug 6 17:56:14 2019 +0800
+
+    [FIX]查看审批页面，滚动时保持页签栏
+
+commit 27853b556066ada445799602df29e0746726012f
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Tue Aug 6 17:32:20 2019 +0800
+
+    [ADD]收款查询条件
+
+commit bba5fc34c7de8c639d1f715327ec162c5de6afdd
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Tue Aug 6 10:55:35 2019 +0800
+
+    [ADD]收款，付款单查询、删除功能
+
+commit 634e43e6dc1b5ea7c9210179f5a52e5bf9c21027
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Thu Aug 1 14:05:11 2019 +0800
+
+    [ADD]合同认款查询[FIX]完善合同认领
+
+commit 93227c588ffe9e5fd63cd0e4a5e78446e2ee641a
+Author: dengfeng <dengfeng.tu@changhong.com>
+Date:   Wed Jul 31 15:12:26 2019 +0800
+
+    [FIX]完善合同认领
